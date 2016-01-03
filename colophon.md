@@ -32,7 +32,22 @@ It is my understanding that the list of ingredients are not copyrightable, so I 
 * image: example.jpg _// image local to /assets/img_
 * source-url: http://example.com
 * source-name: "Name of Remote Source Example Recipe"
+* source-author: John Doe
+* source-book: Name of Cookbook or Magazine
+* source-book-page: Page Number
 * ingredients: qty ingredient1
+
+## Cheat Sheet
+
+A few items that are specific to the Long Haul theme, or other things to remember.
+
+See the [example post formatting]({{ '/post/styles' | prepend: site.baseurl }}) for all the styled elements.
+
+Because this is running in a sub-directory, this is needed in relative URLs:
+
+{% highlight liquid %}
+prepend: site.baseurl
+{% endhighlight %}
 
 ## To Do
 

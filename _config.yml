@@ -3,7 +3,6 @@ description: "The cookbooks on my shelf, and my home recipes"
 
 url: http://projects.bmannconsulting.com
 baseurl: "/cookbookshelf"
-paginate_path: "recipe/page:num/"
 permalink: post/:title/
 
 collections:
@@ -13,6 +12,8 @@ collections:
 
 markdown: redcarpet
 highlighter: pygments
+
+exclude: ["config.rb"]
 
 navigation:
  - title: Home
