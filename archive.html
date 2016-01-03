@@ -8,8 +8,11 @@ title: Recipe Archive
   <ul class="posts noList">
     {% for recipe in site.recipes %}
       <li>
-        <p><a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a>{% if recipe.source-url %} • Source: <a href="{{ recipe.source-url }}">{{ recipe.source-name }}</a>{% endif %}</p>
+        <h3><a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></h3>
+        <span>{% for ingredient in recipe.ingredients %}{{ ingredient | remove: "," | remove: "large" | remove: "½" | remove: "1" | remove: "2" | remove: "3" | remove: "4" | remove: "5" | remove: "ounces" | remove: "cups" | remove: "cup" | remove: "Tbsps" | remove: "Tbsp" | remove: "tsp" | remove: "/" | remove: "of" | remove: "( )" }}{% unless forloop.last %},{% endunless %}
+      {% endfor %}</span><br />
+        {% if recipe.source-url %}<span style="float: right">Source: <a href="{{ recipe.source-url }}">{{ recipe.source-name }}</a>{% endif %}</span><br />
       </li>
     {% endfor %}
-  </ul>
+  </ul>  
 </div>
