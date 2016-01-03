@@ -1,21 +1,24 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Cookbook Shelf
-email: boris@bmann.ca
-description: > # this means to ignore newlines until "baseurl:"
-  This is Boris Mann's recipes and cookbook collection.
-  An experiment in using simple Jekyll templates to generate 
-  pages about cookbooks and recipes.
-baseurl: "/cookbookshelf" # the subpath of your site, e.g. /blog
-url: "http://projects.bmannconsulting.com" # the base hostname & protocol for your site
-twitter_username: bmann
-github_username:  bmann
+description: "The cookbooks on my shelf, and my home recipes"
 
-# Build settings
-markdown: kramdown
+url: http://projects.bmannconsulting.com
+baseurl: "/cookbookshelf"
+paginate_path: "recipe/page:num/"
+permalink: recipe/:title/
+
+markdown: redcarpet
+highlighter: pygments
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /
+
+social:
+   github: bmann
+   twitter: bmann
+   facebook: bmann
+   email: boris@bmann.ca
+
+google_analytics: "UA-"

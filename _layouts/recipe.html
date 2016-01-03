@@ -8,7 +8,25 @@ layout: default
       </div>
   {% endif %}
   <h1 class="postTitle">{{ page.title }}</h1>
-  <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
+  <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
+  
+  {% if page.source-url %}
+  <section class="source">
+    <p>Source: <a href="{{ page.source-url }}">{{ page.source-name }}</a></p>
+  </section>
+  {% endif %}
+  
+  
+  {% if page.ingredients %}
+  <section class="ingredients">
+    <h2>Ingredients</h2>
+    <ul>
+        {% for ingredient in page.ingredients %}
+        <li>{{ ingredient }}</li>
+        {% endfor %}
+    </ul>  
+  </section>
+  {% endif %}
   
   {{ content }}
 
