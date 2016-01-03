@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Colophon
-permalink: colophon
 ---
 
 <h1 class="pageTitle">Colophon</h1>
