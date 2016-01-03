@@ -1,0 +1,15 @@
+---
+layout: default
+title: Recipe Archive
+---
+
+<div class="archive" id="archive">
+  <h1 class="pageTitle">Recipe Archive</h1>
+  <ul class="posts noList">
+    {% for recipe in site.recipes %}
+      <li>
+        <p><a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a>{% if recipe.source-url %} • Source: <a href="{{ recipe.source-url }}">{{ recipe.source-name }}</a>{% endif %}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -4,16 +4,21 @@ description: "The cookbooks on my shelf, and my home recipes"
 url: http://projects.bmannconsulting.com
 baseurl: "/cookbookshelf"
 paginate_path: "recipe/page:num/"
-permalink: recipe/:title/
+permalink: post/:title/
+
+collections:
+  recipes:
+    output: true
+    permalink: /recipe/:title/
 
 markdown: redcarpet
 highlighter: pygments
-gems: [jekyll-paginate]
-paginate: 5
 
 navigation:
  - title: Home
    url: /
+ - title: Recipe Archive
+   url: /archive
 
 social:
    github: bmann
