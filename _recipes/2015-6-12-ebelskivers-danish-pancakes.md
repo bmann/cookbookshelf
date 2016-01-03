@@ -8,7 +8,7 @@ ingredients:
   - 1 cup flour
   - 1/2 tsp baking powder
   - 1/4 tsp salt
-  - 1 1/2 teaspoons sugar
+  - 1 1/2 tsp sugar
   - 2 eggs, separated
   - 1 cup milk
   - 3 Tbsp unsalted butter, melted
