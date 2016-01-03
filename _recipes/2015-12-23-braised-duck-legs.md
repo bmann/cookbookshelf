@@ -1,9 +1,11 @@
 ---
 layout: recipe
-title:  "Duck Legs Braised in Port and Dried Cherries"
+title:  "Braised Duck Legs"
+image: braised-duck_legs.jpg
 source-url: http://www.cookingbythebook.com/cookbook-reviews/duck-legs-braised-port-dried-cherries/
 source-name: "Duck Legs Braised in Port and Dried Cherries"
 ingredients:
+  - 4 large duck legs
   - 1 tsp coriander seeds, lightly toasted
   - ½ tsp black pepper corns
   - ½ tsp allspice berries
@@ -17,4 +19,8 @@ ingredients:
   - coarse salt and freshly ground black pepper 
 ---
 
-<p class="intro"><span class="dropcap">W</span>rite some stuff.</p>
+I wasn't able to find a whole duck to buy for our Christmas Eve 2015 dinner, so instead bought duck legs.
+
+<img src="{{ '/assets/img/braised-duck_braise_closeup.jpg' | prepend: site.baseurl }}" alt="Close up of braise">
+
+I ended up stretching the braise mixture with celeriac and shiitake mushrooms, and also substituting sherry instead of port. It was good, but the flavour got blasted out by the cherries, especially since I did end up with sweetened dried cherries.

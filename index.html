@@ -6,7 +6,7 @@ title: Cookbook Shelf
 <div class="home" id="home">
   <h1 class="pageTitle">Recent Recipes</h1>
   <ul class="posts noList">
-    {% for recipe in site.recipes %}
+    {% for recipe in site.recipes reversed %}
       <li>
         <span class="date">{{ recipe.date | date: '%B %d, %Y' }}</span>
         <h3><a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></h3>
