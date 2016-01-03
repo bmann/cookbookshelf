@@ -5,6 +5,7 @@ title:  "Duck stuffed with Red Cabbage"
 source-url: http://www.telegraph.co.uk/foodanddrink/3543195/Christmas-food-Duck-stuffed-with-red-cabbage-and-prunes.html
 source-name: "Duck stuffed with red cabbage and prunes"
 source-site: The Telegraph
+source-author: Valentine Warner
 ingredients:
   - 1 duck, weighing about 4½ lbs
   - 5 cloves

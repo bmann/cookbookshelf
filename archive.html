@@ -9,7 +9,7 @@ title: Recipe Archive
     {% for recipe in site.recipes %}
       <li>
         <h3><a class="post-link" href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></h3>
-        <span>{% for ingredient in recipe.ingredients %}{{ ingredient | remove: "," | remove: "large" | remove: "½" | remove: "1" | remove: "2" | remove: "3" | remove: "4" | remove: "5" | remove: "ounces" | remove: "cups" | remove: "cup" | remove: "Tbsps" | remove: "Tbsp" | remove: "tsp" | remove: "/" | remove: "of" | remove: "separated" | remove: "melted" | remove: "chopped" | remove: "( )" | strip }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><br />
+        <span>{% for ingredient in recipe.ingredients %}{{ ingredient | remove: "," | remove: "large" | remove: "½" | remove: "1" | remove: "2" | remove: "3" | remove: "4" | remove: "5" | remove: "6" | remove: "7" | remove: "8" | remove: "9" | remove: "10" | remove: "lbs" | remove: " to " | remove: "equal parts" | remove: "cloves" | remove: "crushed" | remove: "freshly ground" | remove: "ground" | remove: "dry" | remove: "ounces" | remove: "cups" | remove: "cup" | remove: "Tbsps" | remove: "Tbsp" | remove: "tsp" | remove: "/" | remove: "of" | remove: "separated" | remove: "melted" | remove: "chopped" | remove: "( )" | strip }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span><br />
         {% if recipe.source-url %}<span style="float: right">Source: <a href="{{ recipe.source-url }}">{{ recipe.source-name }}</a>{% endif %}</span><br />
       </li>
     {% endfor %}

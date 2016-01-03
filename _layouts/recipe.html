@@ -12,7 +12,7 @@ layout: default
   
   {% if page.source-url %}
   <section class="source">
-    <p>Source: <a href="{{ page.source-url }}">{{ page.source-name }}</a></p>
+    <p>Source: <a href="{{ page.source-url }}">{{ page.source-name }}</a>{% if page.source-site %} • {{ page.source-site }}{% endif %}{% if page.source-author %} • {{ page.source-author }}{% endif %}{% if page.source-book %}, {{ page.source-book }}{% endif %}{% if page.source-book-page %}, pg {{ page.source-book-page }}{% endif %}</p>
   </section>
   {% endif %}
   
