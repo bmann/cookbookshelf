@@ -14,7 +14,7 @@ ingredients:
   - 2 large onions, halved and sliced
   - 2 1/4 cups dry white wine
   - 1/4 tsp ground cinnamon
-  - 8 ounces Spanish-style chorizo sausage, cut into 1/4 inch-think-rounds
+  - 8 ounces Spanish-style chorizo sausage, cut into 1/4 inch-thick-rounds
 categories:
   - Portuguese
 ---

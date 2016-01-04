@@ -8,7 +8,7 @@ source-site: The Telegraph
 source-author: Valentine Warner
 ingredients:
   - 1 duck, weighing about 4½ lbs
-  - 5 cloves
+  - 5 clove-sticks
   - 2 bay leaves
   - 3 Tbsp red wine vinegar
   - 7 prunes soaked for a couple of hours in 3 Tbsp brandy

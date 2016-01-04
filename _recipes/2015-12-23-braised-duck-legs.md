@@ -16,7 +16,7 @@ ingredients:
   - 1 large shallot, thinly sliced 
   - 1 bay leaf 
   - 1 cup chicken stock, ideally homemade 
-  - coarse salt and freshly ground black pepper 
+  - coarse salt + freshly ground black pepper 
 ---
 
 I wasn't able to find a whole duck to buy for our Christmas Eve 2015 dinner, so instead bought duck legs.

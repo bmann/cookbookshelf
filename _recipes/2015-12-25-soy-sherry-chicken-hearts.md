@@ -10,7 +10,7 @@ source-book-page:
 source-author: "James A. Beard"
 ingredients:
   - 2 to 3 lbs of chicken hearts
-  - equal parts soy sauce and sherry wine
+  - equal parts soy sauce + sherry wine
   - 2 cloves garlic, crushed
   - 1 tsp freshly ground black pepper
   - 1 tsp ground ginger

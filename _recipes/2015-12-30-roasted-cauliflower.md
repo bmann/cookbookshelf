@@ -10,7 +10,7 @@ ingredients:
   - 1 slice hearty white sandwich bread, torn into 1-inch pieces
   - 5 Tbsp extra-virgin olive oil
   - 1 garlic clove, minced
-  - 1 tsp grated lemon zest, plus lemon wedges for serving
+  - 1 tsp grated lemon zest + lemon wedges for serving
   - 1/4 cup chopped fresh parsley
 categories:
  - Middle Eastern
