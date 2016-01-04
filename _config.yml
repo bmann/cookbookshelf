@@ -9,6 +9,9 @@ collections:
   recipes:
     output: true
     permalink: /recipe/:title/
+  cookbooks:
+    output: true
+    permalink: /cookbook/:title/
 
 markdown: redcarpet
 highlighter: pygments
