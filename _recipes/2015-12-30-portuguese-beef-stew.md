@@ -14,7 +14,7 @@ ingredients:
   - { qty: 2, name: onions, extended: "large, halved and sliced" }
   - { qty: "2 1/4", measure: cups, name: "dry white wine" }
   - { qty: 1/4, measure: tsp, name: "ground cinnamon" }
-  - { qty: 8, measure: ounces, name: "chorizo sausage, extended: "Spanish-style, cut into 1/4 inch-thick-rounds" }
+  - { qty: 8, measure: ounces, name: "chorizo sausage", extended: "Spanish-style, cut into 1/4 inch-thick-rounds" }
 categories:
   - Portuguese
 ---

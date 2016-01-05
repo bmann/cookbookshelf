@@ -18,7 +18,7 @@ layout: default
   
   {% capture recipelist %}
   {% for recipe in site.recipes %}
-    {% if recipe.source-book == page.title }
+    {% if recipe.source-book == page.title %}
       {{ recipe.name }}
     {% endif %}
   {% endfor %}
