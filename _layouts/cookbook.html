@@ -16,26 +16,18 @@ layout: default
   </section>
   {% endif %}
   
-  {% capture recipelist %}
-  {% for recipe in site.recipes %}
-    {% if recipe.source-book == page.title %}
-      {{ recipe.name }}
-    {% endif %}
-  {% endfor %}
-  {% endcapture %}
+  {{ content }}
   
-  {% if recipelist %}
   <section class="recipes">
     <h2>Recipes</h2>
     <ul>
-        {% for recipe in recipelist %}
-        <li>{{ recipe }}</li>
+        {% for recipe in site.recipes %}
+        {% if recipe.source-book contains page.title %}
+        <li><a href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></li>
+        {% endif %}
         {% endfor %}
     </ul>  
   </section>
-  {% endif %}
-  
-  {{ content }}
 
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">
