@@ -9,11 +9,11 @@ source-book: "House & Garden [July 1956]"
 source-book-page: 
 source-author: "James A. Beard"
 ingredients:
-  - 2 to 3 lbs of chicken hearts
-  - equal parts soy sauce + sherry wine
-  - 2 cloves garlic, crushed
-  - 1 tsp freshly ground black pepper
-  - 1 tsp ground ginger
+  - { qty: "2 to 3", measure: lbs, name: "chicken hearts" }
+  - { name: "soy sauce + sherry wine", extended: "equal parts" }
+  - { qty: 2, measure: cloves, name: garlic, extended: crushed }
+  - { qty: 1, measure: tsp, name: "black pepper", extended: "freshly ground" }
+  - { qty: 1, measure: tsp, name: "ground ginger" }
 categories:
   - Asian
 ---

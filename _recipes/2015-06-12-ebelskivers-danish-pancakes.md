@@ -5,14 +5,14 @@ source-url: http://www.seriouseats.com/recipes/2012/12/ebelskivers-danish-pancak
 source-name: "Ebelskivers (Danish Pancakes) with Lingonberry Jam"
 source-site: Serious Eats
 ingredients:
-  - 1 cup flour
-  - 1/2 tsp baking powder
-  - 1/4 tsp salt
-  - 1 1/2 tsp sugar
-  - 2 eggs, separated
-  - 1 cup milk
-  - 3 Tbsp unsalted butter, melted
-  - 1/2 cup jam
+  - { qty: 1, measure: cup, name: flour }
+  - { qty: 1/2, measure: tsp, name: "baking powder" }
+  - { qty: 1/4, measure: tsp, name: salt }
+  - { qty: "1 1/2", measure: tsp, name: sugar }
+  - { qty: 2, name: eggs, extended: "separated" }
+  - { qty: 1, measure: cup, name: milk }
+  - { qty: 3, measure: Tbsp,  name: "unsalted butter", extended: "melted" }
+  - { qty: 1/2, measure: cup, name: jam }
 categories:
   - Baking
   - Danish

@@ -6,12 +6,12 @@ source-name: "Skillet-Roasted Cauliflower with Garlic and Lemon"
 source-book: "Cook's Illustrated [No. 138, February 2016]"
 source-book-page: 13
 ingredients:
-  - 1 head cauliflower
-  - 1 slice hearty white sandwich bread, torn into 1-inch pieces
-  - 5 Tbsp extra-virgin olive oil
-  - 1 garlic clove, minced
-  - 1 tsp grated lemon zest + lemon wedges for serving
-  - 1/4 cup chopped fresh parsley
+  - { qty: 1, measure: head, name: cauliflower }
+  - { qty: 1, measure: slice, name: "white sandwich bread", extended: "hearty, torn into 1-inch pieces" }
+  - { qty: 5, measure: Tbsp, name: "extra-virgin olive oil" }
+  - { qty: 1, name: garlic, measure: clove, extended: minced }
+  - { qty: 1, measure: tsp, name: "lemon zest", extended: " + lemon wedges for serving" }
+  - { qty: 1/4, measure: cup, name: "fresh parsley", extended: "chopped" }
 categories:
  - Middle Eastern
 ---

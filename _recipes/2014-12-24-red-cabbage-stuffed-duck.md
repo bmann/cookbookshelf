@@ -7,12 +7,12 @@ source-name: "Duck stuffed with red cabbage and prunes"
 source-site: The Telegraph
 source-author: Valentine Warner
 ingredients:
-  - 1 duck, weighing about 4½ lbs
-  - 5 clove-sticks
-  - 2 bay leaves
-  - 3 Tbsp red wine vinegar
-  - 7 prunes soaked for a couple of hours in 3 Tbsp brandy
-  - 2 Tbsp granulated sugar 
+  - { qty: 1, name: "duck", extended: "weighing about 4½ lbs"}
+  - {qty: 5, name: "cloves"}
+  - { qty: 2, name: "bay leaves" }
+  - { qty: 3, measure: Tbsp, name: "red wine vinegar" }
+  - { qty: 7, name: "prunes", extended: "soaked for a couple of hours in 3 Tbsp brandy" }
+  - { qty: 2, measure: Tbsp, name: "sugar" }
 ---
 
 German red cabbage cooked and then stuffed into a duck.

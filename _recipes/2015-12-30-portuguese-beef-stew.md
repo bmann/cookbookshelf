@@ -6,15 +6,15 @@ source-name: "Portuguese-Style Beef Stew (Alcatra)"
 source-book: "Cook's Illustrated [No. 138, February 2016]"
 source-book-page: 7
 ingredients:
-  - 3 lbs boneless long-cut beef shanks
-  - 5 garlic cloves
-  - 5 allspice berries
-  - 4 bay leaves
-  - 1 1/2 tsp peppercorns
-  - 2 large onions, halved and sliced
-  - 2 1/4 cups dry white wine
-  - 1/4 tsp ground cinnamon
-  - 8 ounces Spanish-style chorizo sausage, cut into 1/4 inch-thick-rounds
+  - { qty: 3, measure: lbs, extended: "boneless long-cut", name: "beef shanks" }
+  - { qty: 5, name: garlic, measure: cloves }
+  - { qty: 5, name: allspice berries }
+  - { qty: 4, name: "bay leaves" }
+  - { qty: "1 1/2", measure: tsp, name: peppercorns }
+  - { qty: 2, name: onions, extended: "large, halved and sliced" }
+  - { qty: "2 1/4", measure: cups, name: "dry white wine" }
+  - { qty: 1/4, measure: tsp, name: "ground cinnamon" }
+  - { qty: 8, measure: ounces, name: "chorizo sausage, extended: "Spanish-style, cut into 1/4 inch-thick-rounds" }
 categories:
   - Portuguese
 ---

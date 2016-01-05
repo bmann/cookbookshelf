@@ -8,18 +8,18 @@ source-book: "All About Braising"
 source-author: "Molly Stevens"
 source-book-link: http://www.amazon.ca/All-About-Braising-Uncomplicated-Cooking/dp/0393052303
 ingredients:
-  - 4 large duck legs
-  - 1 tsp coriander seeds, lightly toasted
-  - ½ tsp black pepper corns
-  - ½ tsp allspice berries
-  - 1 Tbsp chopped fresh thyme or 1 teaspoon dried
-  - 1 ½ tsp coarse salt
-  - ½ cup (3 ounces) dried Bing cherries (with no sugar added) 
-  - 1 cup tawny port 
-  - 1 large shallot, thinly sliced 
-  - 1 bay leaf 
-  - 1 cup chicken stock, ideally homemade 
-  - coarse salt + freshly ground black pepper 
+  - { qty: 4, extended: large, name: "duck legs" }
+  - { qty: 1, measure: tsp, name: "coriander seeds", extended: "lightly toasted" }
+  - { qty: ½, measure: tsp, name: "black peppercorns" }
+  - { qty: ½, measure: tsp, name: "allspice berries" }
+  - { qty: 1, measure: Tbsp, name: "fresh thyme", extended: "chopped, or 1 teaspoon dried" }
+  - { qty: "1 ½", measure: tsp, name: "coarse salt" }
+  - { qty: ½, measure: cup, name: "dried Bing cherries (with no sugar added)" }
+  - { qty: 1, measure: cup, name: "tawny port" }
+  - { qty: 1, name: shallot, extended: "large, thinly sliced" }
+  - { qty: 1, name: "bay leaf" }
+  - { qty: 1, measure: cup, name: "chicken stock", extended: "ideally homemade" }
+  - { name: "coarse salt + freshly ground black pepper" }
 ---
 
 I wasn't able to find a whole duck to buy for our Christmas Eve 2015 dinner, so instead bought duck legs.
