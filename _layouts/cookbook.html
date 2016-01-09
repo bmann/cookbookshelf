@@ -8,25 +8,50 @@ layout: default
       </div>
   {% endif %}
   <h1 class="postTitle">{{ page.title }}</h1>
-  <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
   
-  {% if page.source-url %}
+  <p class="meta">{% if page.author %}by {{ page.author }} {% endif %}{% if page.amazon %}<a href="{{ page.amazon | append: '&tag=' | append: site.amazonid }}">Amazon</a>{% endif %}</p>
+  
   <section class="source">
-    <p>Source: <a href="{{ page.source-url }}">{{ page.source-name }}</a>{% if page.source-site %} • {{ page.source-site }}{% endif %}{% if page.source-author %} • {{ page.source-author }}{% endif %}{% if page.source-book %}, {% if page.source-book-link %}<a href="{{ page.source-book-link }}">{{ page.source-book }}</a>{% endif %}{% endif %}{% if page.source-book-page %}, pg {{ page.source-book-page }}{% endif %}</p>
+    <p></p>  
+    <p><a href="{{ page.source-url }}">{{ page.source-name }}</a>{% if page.source-site %} • {{ page.source-site }}{% endif %}{% if page.source-author %} • {{ page.source-author }}{% endif %}{% if page.source-book %}, {% if page.source-book-link %}<a href="{{ page.source-book-link }}">{{ page.source-book }}</a>{% endif %}{% endif %}{% if page.source-book-page %}, pg {{ page.source-book-page }}{% endif %}</p>
   </section>
-  {% endif %}
   
+  <section class="description">
+          {% if page.cover %}
+        <a href="{{ page.link }}"><img src="{{ page.cover | prepend: '/assets/img/cookbooks/' | prepend: site.baseurl }}" alt="{{ page.title }}" style="padding-right: 10px; float: left;" /></a>
+    {% endif %}  
   {{ content }}
+  <br style="clear: both;" />
+  </section>
   
   <section class="recipes">
     <h2>Recipes</h2>
     <ul>
         {% for recipe in site.recipes %}
-        {% if recipe.source-book contains page.title %}
+        {% if recipe.source.book contains page.title %}
         <li><a href="{{ recipe.url | prepend: site.baseurl }}">{{ recipe.title }}</a></li>
         {% endif %}
         {% endfor %}
     </ul>  
+  </section>
+  
+  <section class="amazon">
+      <h3>Related on Amazon</h3>
+  <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "cookshel-20";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_textlinks = "";
+amzn_assoc_linkid = "3ad2b35caf0085c94de75f706524cac7";
+amzn_assoc_search_bar = "false";
+amzn_assoc_title = "";
+amzn_assoc_default_search_phrase = "{{ page.title }}";
+amzn_assoc_rows = "1";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>    
   </section>
 
   <!-- POST NAVIGATION -->

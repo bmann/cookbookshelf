@@ -1,10 +1,12 @@
 ---
 layout: recipe
 title:  "Portuguese Beef Stew"
-source-url: https://www.cooksillustrated.com/recipes/8640-portuguese-style-beef-stew-alcatra
-source-name: "Portuguese-Style Beef Stew (Alcatra)"
-source-book: "Cook's Illustrated [No. 138, February 2016]"
-source-book-page: 7
+source: {
+    name: "Portuguese-Style Beef Stew (Alcatra)",
+    url: "https://www.cooksillustrated.com/recipes/8640-portuguese-style-beef-stew-alcatra",
+    book: "Cook's Illustrated Magazine",
+    page: 7
+}
 ingredients:
   - { qty: 3, measure: lbs, extended: "boneless long-cut", name: "beef shanks" }
   - { qty: 5, name: garlic, measure: cloves }

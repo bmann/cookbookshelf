@@ -10,10 +10,10 @@ layout: default
   <h1 class="postTitle">{{ page.title }}</h1>
   <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
   
-  {% if page.source-url %}
+  {% if page.source.url %}
   <section class="source">
-    <p>Source: <a href="{{ page.source-url }}">{{ page.source-name }}</a>{% if page.source-site %} • {{ page.source-site }}{% endif %}{% if page.source-author %} • {{ page.source-author }}{% endif %}{% if page.source-book %}, {% if page.source-book-link %}<a href="{{ page.source-book-link }}">{{ page.source-book }}</a>{% endif %}{% endif %}{% if page.source-book-page %}, pg {{ page.source-book-page }}{% endif %}</p>
-    {% for book in site.cookbooks %}{% if page.source-book contains book.title %}<p>From local cookbook listing: <a href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a></p>{% endif %}{% endfor %}
+    <p>Source: <a href="{{ page.source.url }}">{{ page.source.name }}</a>{% if page.source.book %}, {{ page.source.book }}{% endif %}{% if page.source.page %}, pg {{ page.source.page }}{% endif %}</p>
+     {% for book in site.cookbooks %}{% if page.source.book contains book.title %}<p>Local Cookbook: <a href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a></p>{% endif %}{% endfor %}
   </section>
   {% endif %}
   
@@ -29,7 +29,29 @@ layout: default
   </section>
   {% endif %}
   
+  <section class="description">
   {{ content }}
+  </section>
+  
+    <section class="amazon">
+      <h3>Related on Amazon</h3>
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_enable_interest_ads = "false";
+amzn_assoc_tracking_id = "cookshel-20";
+amzn_assoc_ad_mode = "auto";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_textlinks = "";
+amzn_assoc_linkid = "334c37fc253a74284fa28a50b4e610da";
+amzn_assoc_emphasize_categories = "1000,16310101,284507";
+amzn_assoc_rows = "1";
+amzn_assoc_fallback_mode = {"type":"search","value":"{{ page.title | truncatewords: 1 | append: 'recipe' }}"};
+amzn_assoc_default_category = "Books";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+  </section>
 
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">

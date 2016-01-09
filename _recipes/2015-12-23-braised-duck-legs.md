@@ -2,11 +2,12 @@
 layout: recipe
 title:  "Braised Duck Legs"
 image: braised-duck_legs.jpg
-source-url: http://www.cookingbythebook.com/cookbook-reviews/duck-legs-braised-port-dried-cherries/
-source-name: "Duck Legs Braised in Port and Dried Cherries"
-source-book: "All About Braising"
-source-author: "Molly Stevens"
-source-book-link: http://www.amazon.ca/All-About-Braising-Uncomplicated-Cooking/dp/0393052303
+source: {
+    name: "Duck Legs Braised in Port and Dried Cherries",
+    url: "http://www.cookingbythebook.com/cookbook-reviews/duck-legs-braised-port-dried-cherries/",
+    book: "All About Braising",
+    author: "Molly Stevens"
+}
 ingredients:
   - { qty: 4, extended: large, name: "duck legs" }
   - { qty: 1, measure: tsp, name: "coriander seeds", extended: "lightly toasted" }

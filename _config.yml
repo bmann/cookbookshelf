@@ -23,6 +23,8 @@ navigation:
    url: /
  - title: Recipe Archive
    url: /archive
+ - title: Cookbook Archive
+   url: /cookbooks
 
 social:
    github: bmann
@@ -30,4 +32,5 @@ social:
    facebook: bmann
    email: boris@bmann.ca
 
+amazonid: cookshel-20
 google_analytics: "UA-"

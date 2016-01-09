@@ -1,10 +1,12 @@
 ---
 layout: recipe
 title:  "Roasted Cauliflower"
-source-url: https://www.cooksillustrated.com/articles/146-skillet-roasted-cauliflower
-source-name: "Skillet-Roasted Cauliflower with Garlic and Lemon"
-source-book: "Cook's Illustrated [No. 138, February 2016]"
-source-book-page: 13
+source: {
+    name: "Skillet-Roasted Cauliflower with Garlic and Lemon",
+    url: "https://www.cooksillustrated.com/articles/146-skillet-roasted-cauliflower",
+    book: "Cook's Illustrated Magazine",
+    page: 13
+}
 ingredients:
   - { qty: 1, measure: head, name: cauliflower }
   - { qty: 1, measure: slice, name: "white sandwich bread", extended: "hearty, torn into 1-inch pieces" }
