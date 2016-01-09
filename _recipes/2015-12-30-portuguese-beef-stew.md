@@ -5,6 +5,7 @@ source: {
     name: "Portuguese-Style Beef Stew (Alcatra)",
     url: "https://www.cooksillustrated.com/recipes/8640-portuguese-style-beef-stew-alcatra",
     book: "Cook's Illustrated Magazine",
+    edition: "No. 138, Jan - Feb 2016",
     page: 7
 }
 ingredients:

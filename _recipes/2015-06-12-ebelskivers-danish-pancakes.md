@@ -1,9 +1,11 @@
 ---
 layout: recipe
 title:  "Ebelskivers Danish Pancakes"
-source-url: http://www.seriouseats.com/recipes/2012/12/ebelskivers-danish-pancakes-lingonberry-jam-recipe.html
-source-name: "Ebelskivers (Danish Pancakes) with Lingonberry Jam"
-source-site: Serious Eats
+source: {
+    name: "Ebelskivers (Danish Pancakes) with Lingonberry Jam",
+    site: "Serious Eats",
+    url: "http://www.seriouseats.com/recipes/2012/12/ebelskivers-danish-pancakes-lingonberry-jam-recipe.html",
+}
 ingredients:
   - { qty: 1, measure: cup, name: flour }
   - { qty: 1/2, measure: tsp, name: "baking powder" }

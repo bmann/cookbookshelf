@@ -2,12 +2,14 @@
 layout: recipe
 title:  "Soy & Sherry Marinated Chicken Hearts"
 image: grilled-chicken-hearts.jpg
-source-url: http://www.epicurious.com/recipes/food/views/grilled-chicken-hearts-101735
-source-name: "Grilled Chicken Hearts"
-source-site: Epicurious
-source-book: "House & Garden [July 1956]"
-source-book-page: 
-source-author: "James A. Beard"
+source: {
+    name: "Grilled Chicken Hearts",
+    site: "Epicurious",
+    book: "House & Garden Magazine",
+    edition: "July 1956",
+    author: "James A. Beard",
+    url: "http://www.epicurious.com/recipes/food/views/grilled-chicken-hearts-101735"
+}
 ingredients:
   - { qty: "2 to 3", measure: lbs, name: "chicken hearts" }
   - { name: "soy sauce + sherry wine", extended: "equal parts" }

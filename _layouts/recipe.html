@@ -12,7 +12,7 @@ layout: default
   
   {% if page.source.url %}
   <section class="source">
-    <p>Source: <a href="{{ page.source.url }}">{{ page.source.name }}</a>{% if page.source.book %}, {{ page.source.book }}{% endif %}{% if page.source.page %}, pg {{ page.source.page }}{% endif %}</p>
+    <p>Source: <a href="{{ page.source.url }}">{{ page.source.name }}</a>{% if page.source.book %}, {{ page.source.book }}{% if page.source.edition %} [{{ page.source.edition}}]{% endif %}{% if page.source.page %}, pg {{ page.source.page }}{% endif %}{% endif %}{% if page.source.author %}, {{ page.source.author }}{% endif %}{% if page.source.site %}, {{ page.source.site }}{% endif %}</p>
      {% for book in site.cookbooks %}{% if page.source.book contains book.title %}<p>Local Cookbook: <a href="{{ book.url | prepend: site.baseurl }}">{{ book.title }}</a></p>{% endif %}{% endfor %}
   </section>
   {% endif %}

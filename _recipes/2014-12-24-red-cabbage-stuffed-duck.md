@@ -1,11 +1,12 @@
 ---
 layout: recipe
 title:  "Duck stuffed with Red Cabbage"
-# image: braised-duck_legs.jpg
-source-url: http://www.telegraph.co.uk/foodanddrink/3543195/Christmas-food-Duck-stuffed-with-red-cabbage-and-prunes.html
-source-name: "Duck stuffed with red cabbage and prunes"
-source-site: The Telegraph
-source-author: Valentine Warner
+source: {
+    name: "Duck stuffed with red cabbage and prunes",
+    site: "The Telegraph",
+    url: "http://www.telegraph.co.uk/foodanddrink/3543195/Christmas-food-Duck-stuffed-with-red-cabbage-and-prunes.html",
+    author: "Valentine Warner"
+}
 ingredients:
   - { qty: 1, name: "duck", extended: "weighing about 4½ lbs"}
   - {qty: 5, name: "cloves"}

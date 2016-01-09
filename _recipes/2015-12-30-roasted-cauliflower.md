@@ -5,6 +5,7 @@ source: {
     name: "Skillet-Roasted Cauliflower with Garlic and Lemon",
     url: "https://www.cooksillustrated.com/articles/146-skillet-roasted-cauliflower",
     book: "Cook's Illustrated Magazine",
+    edition: "No. 138, Jan - Feb 2016",
     page: 13
 }
 ingredients:
