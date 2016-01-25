@@ -2,27 +2,21 @@
 layout: default
 ---
 <div class="post">
-  {% if page.image %}
-    <div class="featuredImage">
-        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}" alt="" />
+
+  <h1 class="postTitle">{{ page.title }}</h1>
+    {% if page.cover %}
+    <div class="coverImage">
+        <img src="{{ '/assets/img/cookbooks/' | prepend: site.baseurl | append: page.cover }}" alt="" style="width: 350px; object-fit: contain; float: left; padding: 0px 20px 10px 0px;" />
       </div>
   {% endif %}
-  <h1 class="postTitle">{{ page.title }}</h1>
   
-  <p class="meta">{% if page.author %}by {{ page.author }} {% endif %}{% if page.amazon %}<a href="{{ page.amazon | append: '&tag=' | append: site.amazonid }}">Amazon</a>{% endif %}</p>
+  {% if page.subtitle %}<h2 class="postTitle">{{ page.subtitle }}</h2>{% endif %}
   
-  <section class="source">
-    <p></p>  
-    <p><a href="{{ page.source-url }}">{{ page.source-name }}</a>{% if page.source-site %} • {{ page.source-site }}{% endif %}{% if page.source-author %} • {{ page.source-author }}{% endif %}{% if page.source-book %}, {% if page.source-book-link %}<a href="{{ page.source-book-link }}">{{ page.source-book }}</a>{% endif %}{% endif %}{% if page.source-book-page %}, pg {{ page.source-book-page }}{% endif %}</p>
-  </section>
-  
-  <section class="description">
-          {% if page.cover %}
-        <a href="{{ page.link }}"><img src="{{ page.cover | prepend: '/assets/img/cookbooks/' | prepend: site.baseurl }}" alt="{{ page.title }}" style="padding-right: 10px; float: left;" /></a>
-    {% endif %}  
-  {{ content }}
-  <br style="clear: both;" />
-  </section>
+  <p class="meta">{% if page.author %}by {{ page.author }} {% endif %}{% if page.publishdate %}, Published {{ page.publishdate }} {% endif %}{% if page.amazon %}• <a href="{{ page.amazon | append: '&tag=' | append: site.amazonid }}">Amazon</a>{% endif %}</p>
+    <div>
+        {{ content }}
+    </div>
+    <br style="clear: both;" />
   
   <section class="recipes">
     <h2>Recipes</h2>
