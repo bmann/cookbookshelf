@@ -6,7 +6,7 @@ source: {
     author: "Boris Mann"
 }
 ingredients:
-  - { qty: 1, measure:, cup, name: carrots }
+  - { qty: 1, measure: cup, name: carrots, extended: chopped }
   - { qty: 1/2, measure: cup, name: leek }
   - { qty: 1/2, name: fennel, extended: chopped }
   - { qty: 1, name: red onion, extended: chopped }
