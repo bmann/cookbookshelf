@@ -6,6 +6,8 @@ source: {
     book: "Madhur Jaffrey's Indian Cooking",
     page: 61
 }
+categories:
+ - Indian
 servings: 6
 ingredients:
   - { qty: 1/2, measure: "lb", name: "chickpeas", extended: "dried"}
@@ -29,4 +31,12 @@ ingredients:
   - { qty: 1/2, measure: tsp, name: "cayenne pepper" }
 ---
 
-Used canned chickpeas and ended up with all ground versions of spices.
+I went off recipe a lot.
+
+Canned chickpea rather than dry.
+
+Whole fennel seeds rather than cumin (but still put ground cumin in) and finely chopped garlic + ginger rather than a paste. No cardamon. Whole coriander rather than ground.
+
+I decided to cube the pork chops rather than doing them whole. I cooked the whole thing in a cast iron Dutch oven, first on the stove top, then in the oven at 425 for the final simmering.
+
+Could have had a bit more spice heat to it, but it was tasty & flavourful.
