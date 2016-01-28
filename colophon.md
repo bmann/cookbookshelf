@@ -24,18 +24,17 @@ It is my understanding that the list of ingredients are not copyrightable, so I 
 * [Long Haul Theme](https://github.com/brianmaierjr/long-haul)
 * Hosted on [GitHub Pages](https://pages.github.com/) (source repo [bmann/cookbookshelf](https://github.com/bmann/cookbookshelf))
 
-## Recipe Format
+## Recipe & Cookbook Formats
 
 (in progress documentation of the YAML front matter I'm using for the recipe collection)
 
-* title:  "Example Recipe"
-* image: example.jpg _// image local to /assets/img_
-* source-url: http://example.com
-* source-name: "Name of Remote Source Example Recipe"
-* source-author: John Doe
-* source-book: Name of Cookbook or Magazine
-* source-book-page: Page Number
-* ingredients: qty ingredient1
+<s>Deleted aged example of a start at recipe / source formatting</s>
+
+(which is likely better served by looking at the recipe source files)
+
+* [Example Recipe from a Cookbook](https://raw.githubusercontent.com/bmann/cookbookshelf/gh-pages/_recipes/2016-01-24-pork-chops-chickpeas.md)
+* [Example of Recipe sourced from a Website](https://raw.githubusercontent.com/bmann/cookbookshelf/gh-pages/_recipes/2012-12-18-biscuits.md)
+* [Example Cookbook that the Recipe is from](https://raw.githubusercontent.com/bmann/cookbookshelf/gh-pages/_cookbooks/2016-01-24-indian-cooking.md)
 
 ## Cheat Sheet
 
@@ -51,7 +50,16 @@ prepend: site.baseurl
 
 ## To Do
 
-* A way to separate quantities from ingredient names, both for scaling and in order to pull out major ingredients
+* <s>A way to separate quantities from ingredient names, both for scaling and in order to pull out major ingredients</s>
+    * Short answer: you use an indexed area that looks like this:
+ 
+{% highlight liquid %}
+ ingredients:
+  - { qty: 2, measure: cups,  name: "flour", extended: "sifted" }
+  - { qty: 1, measure: Tbsp, name: "baking soda" }
+{% endhighlight %}
+
+ 
 * An ingredients page that automatically groups recipes based on the ingredients
 * Search, which is a bit tricky with Jekyll + GitHub Pages, but can likely use something like [jekyll + lunr.js](https://github.com/slashdotdash/jekyll-lunr-js-search)
 * Dive into the quagmire that [Microformats.org has documented about recipe formats](http://microformats.org/wiki/recipe-formats). This is for import / export into recipe apps (e.g. [Paprika uses a YAML Format](http://paprikaapp.com/help/mac/#yamlformat)), grocery lists, etc.
