@@ -12,7 +12,7 @@ ingredients:
   - { qty: 1/4, measure: tsp, name: salt }
   - { qty: 3, measure: cups, name: water }
   - { qty: 1, measure: Tbsp, name: "vegetable oil", extended: "(to work into dough)" }
-  - { name: "margine + oil for the pan", extended: "mixture of 1 Tbsp margarine and 5 Tbsp vegetable oil" }
+  - { name: "margarine + oil for the pan", extended: "mixture of 1 Tbsp margarine and 5 Tbsp vegetable oil" }
 category:
   - Baking
   - Caribbean
