@@ -13,7 +13,7 @@ collections:
     output: true
     permalink: /cookbook/:title/
 
-highlighter: pygments
+highlighter: rouge
 
 exclude: ["config.rb"]
 
