@@ -9,25 +9,25 @@
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:description" content="{{ page.excerpt | xml_escape }}">
     {% if page.image %}
-    <meta property="og:image" content="{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}">
+    <meta property="og:image" content="{{ '/assets/img/' | prepend: site.baseurl | prepend: site.url | append: page.image }}">
     {% else %}
-    <meta property="og:image" content="{{ '/assets/img/eat_this_everyday.jpg' | prepend: site.baseurl }}">
+    <meta property="og:image" content="{{ '/assets/img/eat_this_everyday.jpg' | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@bmann">
     <meta name="twitter:title" content="CookbookShelf">
     <meta name="twitter:description" content="CookbookShelf - {{ page.excerpt | xml_escape }}">
     {% if page.image %}
-    <meta property="twitter:image" content="{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}">
+    <meta property="twitter:image" content="{{ '/assets/img/' | prepend: site.baseurl | prepend: site.url | append: page.image }}">
     {% else %}
-    <meta property="twitter:image" content="{{ '/assets/img/eat_this_everyday.jpg' | prepend: site.baseurl }}">
+    <meta property="twitter:image" content="{{ '/assets/img/eat_this_everyday.jpg' | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
     <meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
     
     <title>{{ page.title }}</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}" />
+    <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl | prepend: site.url }}" />
 
     <!-- Come and get me RSS readers -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/recipes.xml" | prepend: site.baseurl | prepend: site.url }}" />
