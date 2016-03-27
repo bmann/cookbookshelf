@@ -6,7 +6,7 @@ source: {
     author: "Boris Mann"
 }
 ingredients:
-  - { qty: 2, measure: cups, name: cooked rice }
+  - { qty: 2, measure: cups, name: rice, extended: cooked }
   - { qty: 1, name: carrot, extended: grated }
   - { qty: 2, name: tomatoes, extended: chopped }
   - { qty: 1/2, measure: cup, name: cabbage, extended: grated }
