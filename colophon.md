@@ -63,3 +63,5 @@ prepend: site.baseurl
 * An ingredients page that automatically groups recipes based on the ingredients
 * Search, which is a bit tricky with Jekyll + GitHub Pages, but can likely use something like [jekyll + lunr.js](https://github.com/slashdotdash/jekyll-lunr-js-search)
 * Dive into the quagmire that [Microformats.org has documented about recipe formats](http://microformats.org/wiki/recipe-formats). This is for import / export into recipe apps (e.g. [Paprika uses a YAML Format](http://paprikaapp.com/help/mac/#yamlformat)), grocery lists, etc.
+* Implement [Algolia search](https://blog.algolia.com/instant-search-blog-documentation-jekyll-plugin/)
+* Linked / sub recipes
