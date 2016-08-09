@@ -21,7 +21,7 @@ layout: default
     <h2>Ingredients</h2>
     <ul>
         {% for ingredient in page.ingredients %}
-        <li><span class="qty">{{ ingredient.qty }}</span>&nbsp;<span class="measure">{{ ingredient.measure }}</span>&nbsp;<span class="name">{{ ingredient.name }}</span></li>
+        <li><span class="qty">{{ ingredient.qty }}</span><span class="measure">&nbsp;{{ ingredient.measure }}</span>&nbsp;<span class="name">{{ ingredient.name }}</span><span class="extended">, {{ ingredient.extended }}</span></li>
         {% endfor %}
     </ul>  
   </section>

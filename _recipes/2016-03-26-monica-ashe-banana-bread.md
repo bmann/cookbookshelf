@@ -18,7 +18,7 @@ categories:
  - Baking
 ---
 
-Rachael's mom's banana bread recipe.
+Rachael's mom's banana bread recipe.&nbsp;
 
 Mix together sugar, flour, baking soda, and salt. Then add the butter and cream together until well mixed. Add the egg and the vanilla to the dry ingredients. Add mashed bananas and mix until it becomes a moist batter.
 
