@@ -33,3 +33,14 @@ social:
 
 amazonid: cookshel-20
 google_analytics: "UA-"
+
+defaults:
+  - scope:
+        path: ""
+        type: recipes
+    values:
+        image: ""
+        source: { name: "An Author", site: "Site Name", url: http://example.com, book: "A Cookbook", page: 42 }
+        servings: 4
+        category: []
+        ingredients: { qty: 1, measure: cup, name: flour, extended: "whole wheat" }
