@@ -1,25 +1,51 @@
 ---
+title: Lomo Saltado with Yams and Peppers
+date: 2016-05-15 00:00:00 Z
+categories:
+- Peruvian
 layout: recipe
-title:  "Lomo Saltado with Yams and Peppers"
-source: {
-    author: "Boris Mann"
-}
+source:
+  author: Boris Mann
 servings: 4
 image: lomo-saltado_final.jpg
 ingredients:
-  - { qty: 1, measure: lb, name: "steak", extended: "ribeye or flank" }
-  - { qty: 3, measure: Tbsp, name: "soy sauce" }
-  - { qty: 1, measure: Tbsp, name: "apple cider vinegar" }
-  - { qty: 1, name: "onion", extended: "sliced" }
-  - { qty: 3, name: "garlic", measure: "cloves" }
-  - { qty: 2, measure: tsp, name: "cumin" }
-  - { qty: 2, measure: tsp, name: "black pepper" }
-  - { qty: 2, name: "bell pepper", extended: "mixed red/green/yellow, sliced"}
-  - { qty: 2, name: "yams", extended: "cut into fries" }
-  - { qty: 1, measure: cup, name: "tomatoes", extended: "chopped" }
-  - { qty: 1, measure: Tbsp, name: "fresh cilantro", extended: "chopped, for garnish", optional: TRUE }
-categories:
-  - Peruvian
+- qty: 1
+  measure: lb
+  name: steak
+  extended: ribeye or flank
+- qty: 3
+  measure: Tbsp
+  name: soy sauce
+- qty: 1
+  measure: Tbsp
+  name: apple cider vinegar
+- qty: 1
+  name: onion
+  extended: sliced
+- qty: 3
+  name: garlic
+  measure: cloves
+- qty: 2
+  measure: tsp
+  name: cumin
+- qty: 2
+  measure: tsp
+  name: black pepper
+- qty: 2
+  name: bell pepper
+  extended: mixed red/green/yellow, sliced
+- qty: 2
+  name: yams
+  extended: cut into fries
+- qty: 1
+  measure: cup
+  name: tomatoes
+  extended: chopped
+- qty: 1
+  measure: Tbsp
+  name: fresh cilantro
+  extended: chopped, for garnish
+  optional: true
 ---
 
 [Chicha](http://www.chicharestaurant.com/), a fantastic Peruvian restaurant in Vancouver, introduced us to the Peruvian stirfry, _Lomo Saltado_.

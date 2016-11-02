@@ -1,8 +1,9 @@
 ---
+title: The New Harvest
+date: 2016-01-24 00:00:00 Z
 layout: cookbook
-title:  "The New Harvest"
-subtitle: "A Cook's Guide to Exotic Fruits and Unusual Vegetables"
-author: "Lou Seibert Pappas and Jane Horn"
+subtitle: A Cook's Guide to Exotic Fruits and Unusual Vegetables
+author: Lou Seibert Pappas and Jane Horn
 publishdate: 1986
 cover: the_new_harvest-cover.jpg
 image: the_new_harvest-celeriac.jpg

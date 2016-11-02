@@ -1,21 +1,34 @@
 ---
-layout: recipe
-title:  "Okonomiyaki"
-image: okonomiyaki-final.jpg
-source: {
-    name: "Okonomiyaki",
-    book: "Let's Cooking Japanese",
-    page: 70
-}
-ingredients:
-  - { qty: 1, measure: cup,  name: "cabbage", extended: "finely chopped" }
-  - { qty: 1/2, measure: cup, name: "flour" }
-  - { qty: 1, name: "egg" }
-  - { qty: 1/2, measure: cup, name: "dashi broth", extended: "made from 1/2 tsp of dashi powder" }
-  - { qty: 1, name: "green onion", extended: "chopped" }
-  - { qty: 1, name: "gu (fillings)", extended: "or more of your choice" }
+title: Okonomiyaki
+date: 2016-02-13 00:00:00 Z
 categories:
-  - Japanese
+- Japanese
+layout: recipe
+image: okonomiyaki-final.jpg
+source:
+  name: Okonomiyaki
+  book: Let's Cooking Japanese
+  page: 70
+ingredients:
+- qty: 1
+  measure: cup
+  name: cabbage
+  extended: finely chopped
+- qty: 1/2
+  measure: cup
+  name: flour
+- qty: 1
+  name: egg
+- qty: 1/2
+  measure: cup
+  name: dashi broth
+  extended: made from 1/2 tsp of dashi powder
+- qty: 1
+  name: green onion
+  extended: chopped
+- qty: 1
+  name: gu (fillings)
+  extended: or more of your choice
 ---
 
 Once you get the hang of okonomiyaki, it becomes a pleasure to start riffing on it. The standard _gu_ (aka filling) that we use is frozen cooked shrimp. You can defrost it in hot water for a bit, and then throw in a handful of shrimp. Chunks of chicken or cheese, chopped mushrooms, snow peas, swapping out some bean sprouts for cabbage -- pretty much anything goes. You can think of it as Japanese pizza, although it's somewhere between a pancake and an omelette.

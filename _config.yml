@@ -1,46 +1,58 @@
+---
 title: Cookbook Shelf
-description: "The cookbooks on my shelf, and my home recipes"
-
+timezone: UTC
+collections:
+  cookbooks:
+    title: Cookbooks
+    output: true
+    permalink: "/cookbook/:title/"
+  posts:
+    title: Posts
+    output: true
+  recipes:
+    title: Recipes
+    output: true
+    permalink: "/recipe/:title/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: recipes
+  values:
+    image: ''
+    source:
+      name: An Author
+      site: Site Name
+      url: http://example.com
+      book: A Cookbook
+      page: '42'
+    servings: '4'
+    category: []
+    ingredients:
+      qty: '1'
+      measure: cup
+      name: flour
+      extended: whole wheat
+description: The cookbooks on my shelf, and my home recipes
 url: http://projects.bmannconsulting.com
 baseurl: "/cookbookshelf"
 permalink: post/:title/
-
-collections:
-  recipes:
-    output: true
-    permalink: /recipe/:title/
-  cookbooks:
-    output: true
-    permalink: /cookbook/:title/
-
 highlighter: rouge
-
-exclude: ["config.rb"]
-
+exclude:
+- config.rb
 navigation:
- - title: Home
-   url: /
- - title: Recipe Archive
-   url: /archive
- - title: Cookbook Archive
-   url: /cookbooks
-
+- title: Home
+  url: "/"
+- title: Recipe Archive
+  url: "/archive"
+- title: Cookbook Archive
+  url: "/cookbooks"
 social:
-   github: bmann
-   twitter: bmann
-   facebook: bmann
-   email: boris@bmann.ca
-
+  github: bmann
+  twitter: bmann
+  facebook: bmann
+  email: boris@bmann.ca
 amazonid: cookshel-20
-google_analytics: "UA-"
-
-defaults:
-  - scope:
-        path: ""
-        type: recipes
-    values:
-        image: ""
-        source: { name: "An Author", site: "Site Name", url: "http://example.com", book: "A Cookbook", page: "42" }
-        servings: "4"
-        category: []
-        ingredients: { qty: "1", measure: "cup", name: "flour", extended: "whole wheat" }
+google_analytics: UA-

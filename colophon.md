@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Colophon
+layout: default
 ---
 
 <h1 class="pageTitle">Colophon</h1>

@@ -1,7 +1,8 @@
 ---
+title: Best Quebec Recipes of Bygone Days
+date: 2016-01-24 00:00:00 Z
 layout: cookbook
-title:  "Best Quebec Recipes of Bygone Days"
-author: "Suzette Couillard and Roseline Normand"
+author: Suzette Couillard and Roseline Normand
 publishdate: 1986
 cover: best_quebec_recipes.jpg
 ---

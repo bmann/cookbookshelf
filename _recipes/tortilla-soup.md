@@ -1,25 +1,52 @@
 ---
-layout: recipe
-title:  "Tortilla Soup"
-servings: 4
-source: {
-    author: "Boris Mann"
-}
-ingredients:
-  - { qty: 1, measure: cup, name: carrots, extended: chopped }
-  - { qty: 1/2, measure: cup, name: leek }
-  - { qty: 1/2, name: fennel, extended: chopped }
-  - { qty: 1, name: red onion, extended: chopped }
-  - { qty: 1, measure: can, name: tomatoes, extended: "796 ml / 28 fl oz can diced or plum" }
-  - { qty: 4, measure: cups, name: chicken stock }
-  - { qty: 1, measure: Tbsp, name: cumin, extended: ground }
-  - { qty: 1, measure: tsp, name: chili powder }
-  - { name: salt, extended: "to taste" }
-  - { qty: 1, name: lime, extended: fresh }
-  - { qty: 1/2, measure: cup, name: cilantro, extended: fresh chopped }
-  - { qty: 2, name: tortillas, extended: toasted }
+title: Tortilla Soup
+date: 2016-01-04 00:00:00 Z
 categories:
- - Mexican
+- Mexican
+layout: recipe
+servings: 4
+source:
+  author: Boris Mann
+ingredients:
+- qty: 1
+  measure: cup
+  name: carrots
+  extended: chopped
+- qty: 1/2
+  measure: cup
+  name: leek
+- qty: 1/2
+  name: fennel
+  extended: chopped
+- qty: 1
+  name: red onion
+  extended: chopped
+- qty: 1
+  measure: can
+  name: tomatoes
+  extended: 796 ml / 28 fl oz can diced or plum
+- qty: 4
+  measure: cups
+  name: chicken stock
+- qty: 1
+  measure: Tbsp
+  name: cumin
+  extended: ground
+- qty: 1
+  measure: tsp
+  name: chili powder
+- name: salt
+  extended: to taste
+- qty: 1
+  name: lime
+  extended: fresh
+- qty: 1/2
+  measure: cup
+  name: cilantro
+  extended: fresh chopped
+- qty: 2
+  name: tortillas
+  extended: toasted
 ---
 
 I freestyled this Mexican-style tortilla soup with some home made chicken stock.

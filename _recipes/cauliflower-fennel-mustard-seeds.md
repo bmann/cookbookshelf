@@ -1,24 +1,45 @@
 ---
-layout: recipe
-title:  "Cauliflower with fennel and mustard seeds"
-source: {
-    name: "Cauliflower with fennel and mustard seeds (Baghari phool gobi)",
-    book: "Madhur Jaffrey's Indian Cooking",
-    page: 109
-}
-image: cauliflower-fennel_final.jpg
+title: Cauliflower with fennel and mustard seeds
+date: 2016-01-27 00:00:00 Z
 categories:
- - Indian
+- Indian
+layout: recipe
+source:
+  name: Cauliflower with fennel and mustard seeds (Baghari phool gobi)
+  book: Madhur Jaffrey's Indian Cooking
+  page: 109
+image: cauliflower-fennel_final.jpg
 servings: 6
 ingredients:
-  - { qty: 1, measure: "head", name: "cauliflower", extended: "large"}
-  - { qty: 1, measure: Tbsp, name: "garlic", extended: "very finely minced"}
-  - { qty: 7, measure: Tbsp, name: "vegetable oil" }
-  - { qty: 2, measure: tsp, name: "fennel seeds", extended: "whole" }
-  - { qty: 1, measure: Tbsp, name: "black mustard seeds", extended: "whole" }
-  - { qty: 1, measure: tsp, name: "turmeric", extended: "ground" }
-  - { qty: 1 1/2, measure: tsp, name: "salt" }
-  - { qty: 1/4, measure: tsp, name: "cayenne pepper" }
+- qty: 1
+  measure: head
+  name: cauliflower
+  extended: large
+- qty: 1
+  measure: Tbsp
+  name: garlic
+  extended: very finely minced
+- qty: 7
+  measure: Tbsp
+  name: vegetable oil
+- qty: 2
+  measure: tsp
+  name: fennel seeds
+  extended: whole
+- qty: 1
+  measure: Tbsp
+  name: black mustard seeds
+  extended: whole
+- qty: 1
+  measure: tsp
+  name: turmeric
+  extended: ground
+- qty: 1 1/2
+  measure: tsp
+  name: salt
+- qty: 1/4
+  measure: tsp
+  name: cayenne pepper
 ---
 
 Cauliflower has been much in the news in Vancouver for being very expensive. Rachael came home with a very large head of cauliflower that was very reasonable in price, and I was excited to try another whole spice experiment from Jaffrey's book.

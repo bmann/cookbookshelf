@@ -1,25 +1,51 @@
 ---
-layout: recipe
-title:  "Breakfast Nachos aka Chilaquiles"
-servings: 4
-source: {
-    author: "Boris Mann / Lee Lefever"
-}
-ingredients:
-  - { qty: 8, name: fresh corn tortillas, extended: "cut into quarters" }
-  - { name: vegetable oil, extended: "for frying tortillas" }
-  - { qty: 1, measure: cup, name: onion, extended: chopped }
-  - { qty: 1, measure: cup, name: tomatoes, extended: chopped }
-  - { qty: 3, measure: cloves, name: garlic, extended: minced }
-  - { qty: 1, measure: tsp, name: ancho chili powder }
-  - { qty: 1, measure: tsp, name: cumin, extended: ground }
-  - { qty: 1, measure: cup, name: cilantro, extended: "chopped (divided)" }
-  - { name: salt, extended: "to taste" }
-  - { name: "black pepper", extended: "fresh ground, to taste" }
-  - { qty: 8, name: eggs }
-  - { qty: 1, measure: cup, name: "cheese", extended: "grated - mix of monterey jack, cheddar, etc." }
+title: Breakfast Nachos aka Chilaquiles
+date: 2016-08-08 00:00:00 Z
 categories:
- - Mexican
+- Mexican
+layout: recipe
+servings: 4
+source:
+  author: Boris Mann / Lee Lefever
+ingredients:
+- qty: 8
+  name: fresh corn tortillas
+  extended: cut into quarters
+- name: vegetable oil
+  extended: for frying tortillas
+- qty: 1
+  measure: cup
+  name: onion
+  extended: chopped
+- qty: 1
+  measure: cup
+  name: tomatoes
+  extended: chopped
+- qty: 3
+  measure: cloves
+  name: garlic
+  extended: minced
+- qty: 1
+  measure: tsp
+  name: ancho chili powder
+- qty: 1
+  measure: tsp
+  name: cumin
+  extended: ground
+- qty: 1
+  measure: cup
+  name: cilantro
+  extended: chopped (divided)
+- name: salt
+  extended: to taste
+- name: black pepper
+  extended: fresh ground, to taste
+- qty: 8
+  name: eggs
+- qty: 1
+  measure: cup
+  name: cheese
+  extended: grated - mix of monterey jack, cheddar, etc.
 ---
 
 After a disappointing restaurant breakfast of flabby breakfast chilaquiles, we decided to make our own.
