@@ -1,8 +1,9 @@
 ---
 title: Ramen for breakfast
-date: '2016-11-13 13:11:17'
+date: 2016-11-13 13:11:17 Z
 layout: post
 ---
+
 We were over in Victoria for the weekend, visiting Darren & Kirsti at their new house. 
 
 On Saturday night we picked up a pre-made Duck Ramen Broth from The Village Butcher, plus a Smoked Duck Breast from the next door Whole Beast deli. 
